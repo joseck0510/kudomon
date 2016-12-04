@@ -1,4 +1,4 @@
-class Sourbulb < Kudomon
+class Chikapu < Kudomon
 
   attr_reader :position, :x, :y, :type
 
@@ -8,6 +8,6 @@ class Sourbulb < Kudomon
   end
 
   def type
-    @type = 'grass'
+    @type = 'electric'
   end
 end

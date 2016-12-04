@@ -21,7 +21,12 @@ RSpec.configure do |config|
   require 'trainer.rb'
   require 'pry.rb'
   require 'kudomon.rb'
-  require 'Sourbulb.rb'
+  require 'sourbulb.rb'
+  require 'mancharred.rb'
+  require 'chikapu.rb'
+  require 'molimatch.rb'
+  require 'bolem.rb'
+  require 'exxecoote.rb'
   # rspec-expectations config goes here. You can use an alternate
   # assertion/expectation library such as wrong or the stdlib/minitest
   # assertions if you prefer.
