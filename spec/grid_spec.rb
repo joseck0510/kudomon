@@ -1,4 +1,4 @@
-require 'grid'
+require 'grid' 
 
 describe Grid do
 

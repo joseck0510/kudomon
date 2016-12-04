@@ -1,6 +1,5 @@
 require 'pry'
-require 'grid'
-require 'trainer'
+
 
 describe 'trainer' do
 
@@ -12,7 +11,6 @@ describe 'trainer' do
 
   describe 'position' do
     it 'has an x and y coordinates' do
-      trainer = Trainer.new(4, 4)
       expect(trainer.trainer_position).to eq [4, 4]
     end
   end
