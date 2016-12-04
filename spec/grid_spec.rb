@@ -16,5 +16,17 @@ describe Grid do
     it 'has a random number of Kudomon between 1 and 4' do
       expect(grid.no_of_kudomon).to eq(1)
     end
+
+    it 'has 9 rows by 9 columns' do
+  expect(grid.start_grid).to eq([[0, 0, 0, 0, 0, 0, 0, 0, 0],
+                                 [0, 0, 0, 0, 0, 0, 0, 0, 0],
+                                 [0, 0, 0, 0, 0, 0, 0, 0, 0],
+                                 [0, 0, 0, 0, 0, 0, 0, 0, 0],
+                                 [0, 0, 0, 0, 0, 0, 0, 0, 0],
+                                 [0, 0, 0, 0, 0, 0, 0, 0, 0],
+                                 [0, 0, 0, 0, 0, 0, 0, 0, 0],
+                                 [0, 0, 0, 0, 0, 0, 0, 0, 0],
+                                 [0, 0, 0, 0, 0, 0, 0, 0, 0]])
+    end
   end
 end
