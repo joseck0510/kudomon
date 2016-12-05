@@ -1,6 +1,10 @@
 class Sourbulb < Kudomon
 
-  attr_reader :position, :x, :y, :type
+  attr_reader :position, :x, :y, :type, :beast
+
+  def beast
+    @beast = 'sourbulb'
+  end
 
   def position
     random_xy_generator

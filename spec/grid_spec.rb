@@ -1,4 +1,4 @@
-require 'grid' 
+require 'grid.rb'
 
 describe Grid do
 
@@ -27,6 +27,17 @@ describe Grid do
                                  [0, 0, 0, 0, 0, 0, 0, 0, 0],
                                  [0, 0, 0, 0, 0, 0, 0, 0, 0],
                                  [0, 0, 0, 0, 0, 0, 0, 0, 0]])
+    end
+  end
+
+  describe 'Kudomon placement' do
+    before :each do
+      srand(0)
+    end
+
+    it 'generates a random kudomon' do
+      grid.kudomon_randomiser
+      expect(grid.kudomon_tracker_array[0][1]).to eq('sourbulb')
     end
   end
 end
