@@ -5,7 +5,7 @@ class Chikapu < Kudomon
   def beast
     @beast = 'chikapu'
   end
-  
+
   def position
     random_xy_generator
     @postion = [x, y]

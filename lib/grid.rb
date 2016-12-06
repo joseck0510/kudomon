@@ -21,10 +21,11 @@ class Grid
     count = @no_of_kudomon
     while count >= 0
       k = @kudomon_array.sample.new
-      @kudomon = [k, k.beast]
+      @kudomon = [k, k.beast, k.position]
       @kudomon_tracker_array << @kudomon
       count -= 1
     end
+    kudomon_randomiser
   end
 
   def start_grid_generator
