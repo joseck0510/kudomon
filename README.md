@@ -1,3 +1,7 @@
+## Partial solution
+
+Unfortunately did not have a lot of time over the weekend as had urgent family business to attend to in Devon.  The idea was to create a positioning grid to place players and nearby kudomon into.  A random number of Kudomon would be generated on start and stored in an array.  The array would be iterated over and compared to the player xy coords.  The players would then be able to attempt to capture nearby kudomon and add to collection array.  If multiple players attempted to capture the same kudomon object a randomly generated roll between players would determine the outcome. Battles between players would follow a Rock, Paper, Scissors logic to determine outcomes.
+
 # Kudomon GO!
 Credit Kudos' Technical Challenge.
 
@@ -43,7 +47,7 @@ At the exact same time, my neighbour Freddy sees the same Kudomon and also tries
 Freddy succeeds and adds the Kudomon to his collection before I’ve finished catching it.
 I now feel sad.
 
-How can we avoid this situation? 
+How can we avoid this situation?
 
 Now imagine instead of just two people, it’s now 1000 people cramming into Central Park to catch the same Kudomon - would the same solution work then?
 
